@@ -3,3 +3,4 @@
 /data/
 /predict_result/
 /TEMP-Scripts/
+*.pyc

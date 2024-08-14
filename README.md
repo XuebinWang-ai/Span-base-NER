@@ -20,8 +20,10 @@ nohup python -u ../run.py train \
 ```
 
 -d: use which gpu
+
 --max_ne_length: the maximum NE length to search. "-1" means do not use this parameter.
 In the ontonotes4 and ontonotes5, the maximum NE lengths are "23" and "55" respectively.
+
 --cwsfeat: bert
 
 ## Evaluate
@@ -41,6 +43,7 @@ nohup python -u ../run.py evaluate \
 ```
 
 --threshold: the minmum probability of NE to save.
+
 --fprob: the path to save 1-best results and all NE with probability larger than or equal to threshold.
 
 ## Predict
